@@ -28,3 +28,20 @@ def checkReservations(user_selected_time, user_selected_size)
         end
        }    
  end
+
+
+=begin
+
+This is from an app I'm creating for the friend of a family member; this person would like to open a Laundromat 
+and was thinking about having an option where customers could make a Reservation, making sure they will have a 
+washer available at the time they requested. 
+The shared link is the piece of code that was most challenging for me, In order to achieve such feature, 
+I retrieve an array with reservations that matches the same washer size as the one selected by the user on 
+the frontend, then check if there is enough time from one reservation to another, If Yes, the method checkReservations 
+will return it allowing the code to proceed to save the request.
+The backend logic is not done though. I will implement a reservation number, which can be used to cancel a reservation. 
+A stretch goal for this project is to only display on the frontend the day/times where reservations are available. 
+
+=end
+
+
